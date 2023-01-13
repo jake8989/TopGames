@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TopGames/static/css/main.e6c13ad2.css",
+    "main.js": "/TopGames/static/js/main.c958f83e.js",
+    "static/js/787.4943fd84.chunk.js": "/TopGames/static/js/787.4943fd84.chunk.js",
+    "static/media/game__logo.webp": "/TopGames/static/media/game__logo.dfb59a361aa706139a56.webp",
+    "index.html": "/TopGames/index.html",
+    "main.e6c13ad2.css.map": "/TopGames/static/css/main.e6c13ad2.css.map",
+    "main.c958f83e.js.map": "/TopGames/static/js/main.c958f83e.js.map",
+    "787.4943fd84.chunk.js.map": "/TopGames/static/js/787.4943fd84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c958f83e.js"
+  ]
+}

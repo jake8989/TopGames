@@ -1,0 +1,10 @@
+implementation:'done';
+using materialUI;'done';
+downlod button:'done';
+download functionality:'pending';
+card functionality:'pending';
+next page rounting:'pending';
+responsiveness:'pending';
+auto complete:'pending';
+typescrpt:'pending';
+

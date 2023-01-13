@@ -62,7 +62,7 @@ const App = () => {
 				</Button>
 			</Stack>
 			<Typography variant="h5" sx={{ textAlign: 'center', marginTop: '4rem' }}>
-				Polular {gf.toUpperCase()} Games
+				Popular {gf.toUpperCase()} Games
 			</Typography>
 			<Paper sx={{ marginTop: '6rem', backgroundColor: 'rgb(10, 25, 41)' }}>
 				<Grid

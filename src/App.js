@@ -64,7 +64,6 @@ const App = () => {
 	};
 
 	return (
-		// <Paper>
 		<>
 			<Paper>
 				<Navbar></Navbar>
@@ -82,34 +81,26 @@ const App = () => {
 						Search
 					</Button>
 				</Box>
-				<Typography
-					variant="body1"
-					textAlign={'center'}
-					sx={{ marginTop: '1rem' }}
-				>
-					Results
-				</Typography>
-
-				<Grid
-					container
-					className={classes.gamelist}
-					rowSpacing={2}
-					columnSpacing={2}
-				>
-					{intGame.map((game, _) => (
-						<Grid item>
-							<GameList gameName={game}></GameList>
-						</Grid>
-					))}
-				</Grid>
-				<Typography textAlign={'center'}>
-					{' '}
-					Copyright @TopGames|All rights reserved
-				</Typography>
+				<Paper>
+					<Grid
+						container
+						className={classes.gamelist}
+						rowSpacing={2}
+						columnSpacing={2}
+					>
+						{intGame.map((game, _) => (
+							<Grid item>
+								<GameList gameName={game}></GameList>
+							</Grid>
+						))}
+					</Grid>
+					<Typography textAlign={'center'}>
+						{' '}
+						Copyright @TopGames|All rights reserved
+					</Typography>
+				</Paper>
 			</Paper>
 		</>
-
-		// </Paper>
 	);
 };
 export default App;
